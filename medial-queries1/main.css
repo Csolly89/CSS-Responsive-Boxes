@@ -1,13 +1,45 @@
 body {
-  background: blanchedalmond;
+  background: rgb(1, 110, 74);
 }
 
 * {
-  border: 1px solid red;
+  border: 1px solid rgb(245, 241, 241);
 }
 
-@media (min-width: 600px) 
+/* Html Classes---Container-a-b-c */
+
+.container{
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
+  justify-content:space-evenly;
+  margin:0;
+}
+
+.a{
+width:100%;
+height:30vh;
+}
+
+.b{
+  height:80vh;
+  flex-grow:3;
+}
+
+.c{
+  flex-grow:1;
+  min-height:30vh;
+}
+
+/* media for when its over 600px */
+@media (min-width: 600px) {
   .container {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+
+}
+
+
+
