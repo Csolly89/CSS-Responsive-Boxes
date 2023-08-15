@@ -1,3 +1,18 @@
 body {
   background: peachpuff;
 }
+
+.container{
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
+  justify-content:space-evenly;
+  margin:0;
+}
+
+/* media for when its over 600px */
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
