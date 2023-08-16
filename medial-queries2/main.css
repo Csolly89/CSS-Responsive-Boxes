@@ -2,37 +2,52 @@ body {
   background: rgb(1, 87, 87);
 }
 
-* {
-  border:1px solid grey;
-}
 
 .container{
   display:flex;
   min-height:100vh;
   flex-direction:column;
-  margin:0px;
+  margin: 5px;
 }
 
 .a{
   flex-grow:1;
   width:100%;
   max-height:20vh;
+  background-color:aquamarine;
+  margin:auto;
 }
 
 .b{
   width:100%;
   flex-grow:2;
-  max-height:40vh;
+  min-height:40vh;
+  background-color: aquamarine;
+  margin-top:10px;
+}
+
+.cde{
+  display:flex;
+  flex-direction:row;
+  width:100%;
 
 }
 
-
-
+.c, .d, .e {
+  display:block;
+  width:30%;
+  min-height:20vh;
+  margin:auto;
+  background-color: aquamarine;
+  margin-top:10px;
+}
 
 .f{
   min-height:20vh;
   width:100%;
   margin-bottom:-10px;
+  background-color: aquamarine;
+  margin-top:10px;
 }
 
 
