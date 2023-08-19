@@ -58,6 +58,20 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .a{
+    height:50px;
+  }
+
+  .bcde{
+    width:60%;
+    height:50em;
+  }
+
+  .f{
+    height:35em;
+    max-width:200px;
+    margin:10px;
+  }
 
   
 }
